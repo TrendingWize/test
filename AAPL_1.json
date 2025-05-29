@@ -1,0 +1,866 @@
+{
+    "metadata": {
+        "company_name": "Apple Inc.",
+        "ticker": "AAPL",
+        "exchange": "NASDAQ",
+        "industry": "Consumer Electronics",
+        "sector": "Technology",
+        "currency": "USD",
+        "as_of_date": "2023-11-03",
+        "last_price": 176.65,
+        "data_range_years": "5",
+        "analysis_generation_date": "2023-11-23",
+        "sec_filing_link": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/0000320193-23-000106-index.htm"
+    },
+    "analysis": {
+        "financial_performance": {
+            "revenues": {
+                "values": [
+                    {
+                        "period": "2019",
+                        "value": 260174000000
+                    },
+                    {
+                        "period": "2020",
+                        "value": 274515000000
+                    },
+                    {
+                        "period": "2021",
+                        "value": 365817000000
+                    },
+                    {
+                        "period": "2022",
+                        "value": 394328000000
+                    },
+                    {
+                        "period": "2023",
+                        "value": 383285000000
+                    }
+                ],
+                "explanation": "Apple's revenue has grown significantly over the past five years, with a peak in 2022 before a slight decline in 2023. This growth was primarily driven by increased demand for iPhone and other product lines.",
+                "classification": "Positive"
+            },
+            "revenue_growth_rates": {
+                "values": [
+                    {
+                        "period": "2019",
+                        "growth_percent": 5.5
+                    },
+                    {
+                        "period": "2020",
+                        "growth_percent": 33.3
+                    },
+                    {
+                        "period": "2021",
+                        "growth_percent": 7.8
+                    },
+                    {
+                        "period": "2022",
+                        "growth_percent": -2.8
+                    }
+                ],
+                "explanation": "Apple saw strong revenue growth from 2019 to 2022, driven by product innovation and market expansion, though there was a slight decline in 2023.",
+                "classification": "Neutral"
+            },
+            "revenue_cagr_calculated": {
+                "rate_percent": 10.13,
+                "period_years": 5,
+                "start_year": "2019",
+                "start_value": 260174000000,
+                "end_year": "2023",
+                "end_value": 383285000000,
+                "calculation_note": "CAGR calculated over five-year period from 2019 to 2023 using end and start values.",
+                "classification": "Positive"
+            },
+            "gross_margin": {
+                "values": [
+                    {
+                        "period": "2019",
+                        "value_percent": 37.82
+                    },
+                    {
+                        "period": "2020",
+                        "value_percent": 38.23
+                    },
+                    {
+                        "period": "2021",
+                        "value_percent": 41.78
+                    },
+                    {
+                        "period": "2022",
+                        "value_percent": 43.31
+                    },
+                    {
+                        "period": "2023",
+                        "value_percent": 44.13
+                    }
+                ],
+                "explanation": "Gross margins have improved steadily, indicating better cost control and higher product pricing power.",
+                "classification": "Positive"
+            },
+            "ebitda_margin": {
+                "values": [
+                    {
+                        "period": "2019",
+                        "value_percent": 31.46
+                    },
+                    {
+                        "period": "2020",
+                        "value_percent": 29.51
+                    },
+                    {
+                        "period": "2021",
+                        "value_percent": 33.66
+                    },
+                    {
+                        "period": "2022",
+                        "value_percent": 33.1
+                    },
+                    {
+                        "period": "2023",
+                        "value_percent": 32.83
+                    }
+                ],
+                "explanation": "EBITDA margins have remained stable with minor fluctuations, showing consistent operational efficiency.",
+                "classification": "Neutral"
+            },
+            "net_margin": {
+                "values": [
+                    {
+                        "period": "2019",
+                        "value_percent": 21.24
+                    },
+                    {
+                        "period": "2020",
+                        "value_percent": 20.91
+                    },
+                    {
+                        "period": "2021",
+                        "value_percent": 25.88
+                    },
+                    {
+                        "period": "2022",
+                        "value_percent": 25.31
+                    },
+                    {
+                        "period": "2023",
+                        "value_percent": 23.81
+                    }
+                ],
+                "explanation": "Net margins have remained strong, with slight variations reflecting changes in tax and operating costs.",
+                "classification": "Positive"
+            },
+            "profitability_metrics": {
+                "ebitda": {
+                    "values": [
+                        {
+                            "period": "2019",
+                            "value": 81860000000
+                        },
+                        {
+                            "period": "2020",
+                            "value": 81020000000
+                        },
+                        {
+                            "period": "2021",
+                            "value": 123136000000
+                        },
+                        {
+                            "period": "2022",
+                            "value": 130541000000
+                        },
+                        {
+                            "period": "2023",
+                            "value": 125820000000
+                        }
+                    ],
+                    "explanation": "EBITDA has grown over the period, showing healthy operational cash generation capacity.",
+                    "classification": "Positive"
+                },
+                "operating_income": {
+                    "values": [
+                        {
+                            "period": "2019",
+                            "value": 63930000000
+                        },
+                        {
+                            "period": "2020",
+                            "value": 66288000000
+                        },
+                        {
+                            "period": "2021",
+                            "value": 108949000000
+                        },
+                        {
+                            "period": "2022",
+                            "value": 119437000000
+                        },
+                        {
+                            "period": "2023",
+                            "value": 114301000000
+                        }
+                    ],
+                    "explanation": "Operating income increased significantly over the years, supported by revenue growth and efficiency.",
+                    "classification": "Positive"
+                },
+                "net_income": {
+                    "values": [
+                        {
+                            "period": "2019",
+                            "value": 55256000000
+                        },
+                        {
+                            "period": "2020",
+                            "value": 57411000000
+                        },
+                        {
+                            "period": "2021",
+                            "value": 94680000000
+                        },
+                        {
+                            "period": "2022",
+                            "value": 99803000000
+                        },
+                        {
+                            "period": "2023",
+                            "value": 96995000000
+                        }
+                    ],
+                    "explanation": "Net income trends align with revenue and operating income patterns, reinforcing strong profitability.",
+                    "classification": "Positive"
+                },
+                "eps_diluted": {
+                    "values": [
+                        {
+                            "period": "2019",
+                            "value": 2.97
+                        },
+                        {
+                            "period": "2020",
+                            "value": 3.28
+                        },
+                        {
+                            "period": "2021",
+                            "value": 5.61
+                        },
+                        {
+                            "period": "2022",
+                            "value": 6.11
+                        },
+                        {
+                            "period": "2023",
+                            "value": 6.13
+                        }
+                    ],
+                    "explanation": "EPS has grown along with net income, benefitting from share repurchase programs.",
+                    "classification": "Positive"
+                },
+                "net_income_cagr_calculated": {
+                    "rate_percent": 14.44,
+                    "period_years": 5,
+                    "start_year": "2019",
+                    "start_value": 55256000000,
+                    "end_year": "2023",
+                    "end_value": 96995000000,
+                    "calculation_note": "CAGR calculated over five-year period from 2019 to 2023.",
+                    "classification": "Positive"
+                },
+                "eps_diluted_cagr_calculated": {
+                    "rate_percent": 19.73,
+                    "period_years": 5,
+                    "start_year": "2019",
+                    "start_value": 2.97,
+                    "end_year": "2023",
+                    "end_value": 6.13,
+                    "calculation_note": "CAGR calculated over five-year period from 2019 to 2023.",
+                    "classification": "Positive"
+                },
+                "roa": {
+                    "values": [
+                        {
+                            "period": "2019",
+                            "value_percent": 16.31
+                        },
+                        {
+                            "period": "2020",
+                            "value_percent": 18.11
+                        },
+                        {
+                            "period": "2021",
+                            "value_percent": 28.41
+                        },
+                        {
+                            "period": "2022",
+                            "value_percent": 28.43
+                        },
+                        {
+                            "period": "2023",
+                            "value_percent": 27.49
+                        }
+                    ],
+                    "explanation": "ROA improved markedly, consistent with high profitability and efficient asset use.",
+                    "classification": "Positive"
+                },
+                "roic": {
+                    "values": [
+                        {
+                            "period": "2019",
+                            "value_percent": 18.62
+                        },
+                        {
+                            "period": "2020",
+                            "value_percent": 22.14
+                        },
+                        {
+                            "period": "2021",
+                            "value_percent": 31.59
+                        },
+                        {
+                            "period": "2022",
+                            "value_percent": 32.59
+                        },
+                        {
+                            "period": "2023",
+                            "value_percent": 30.59
+                        }
+                    ],
+                    "explanation": "ROIC reflects Apple's competitive advantage in capital deployment and return generation.",
+                    "classification": "Positive"
+                }
+            },
+            "profitability_summary": "Profitability has shown strong growth supported by operational efficiency, innovative product lines, and strategic initiatives that have driven margins and income higher.",
+            "profitability_summary_classification": "Positive",
+            "debt_and_liquidity": {
+                "current_ratio": {
+                    "values": [
+                        {
+                            "period": "2019",
+                            "value": 1.54
+                        },
+                        {
+                            "period": "2020",
+                            "value": 1.36
+                        },
+                        {
+                            "period": "2021",
+                            "value": 1.42
+                        },
+                        {
+                            "period": "2022",
+                            "value": 1.36
+                        },
+                        {
+                            "period": "2023",
+                            "value": 1.29
+                        }
+                    ],
+                    "explanation": "Current ratio suggests a stable liquidity position, despite a slight decline in recent years.",
+                    "classification": "Neutral"
+                },
+                "debt_to_equity": {
+                    "values": [
+                        {
+                            "period": "2019",
+                            "value": 1.19
+                        },
+                        {
+                            "period": "2020",
+                            "value": 1.23
+                        },
+                        {
+                            "period": "2021",
+                            "value": 1.2
+                        },
+                        {
+                            "period": "2022",
+                            "value": 1.53
+                        },
+                        {
+                            "period": "2023",
+                            "value": 1.36
+                        }
+                    ],
+                    "explanation": "Debt levels relative to equity have remained under control, reflecting strong financial management.",
+                    "classification": "Neutral"
+                },
+                "interest_coverage_ratio": {
+                    "values": [
+                        {
+                            "period": "2019",
+                            "value": 5.12
+                        },
+                        {
+                            "period": "2020",
+                            "value": 7.12
+                        },
+                        {
+                            "period": "2021",
+                            "value": 8.21
+                        },
+                        {
+                            "period": "2022",
+                            "value": 8.13
+                        },
+                        {
+                            "period": "2023",
+                            "value": 7.92
+                        }
+                    ],
+                    "explanation": "Interest coverage remained strong, indicating ease in managing interest obligations with income.",
+                    "classification": "Positive"
+                }
+            },
+            "cash_generation": {
+                "operating_cash_flow": {
+                    "values": [
+                        {
+                            "period": "2019",
+                            "value": 69391000000
+                        },
+                        {
+                            "period": "2020",
+                            "value": 80674000000
+                        },
+                        {
+                            "period": "2021",
+                            "value": 104038000000
+                        },
+                        {
+                            "period": "2022",
+                            "value": 122151000000
+                        },
+                        {
+                            "period": "2023",
+                            "value": 110543000000
+                        }
+                    ],
+                    "explanation": "Operating cash flow has shown robust growth, supporting capital expenditures and returns to shareholders.",
+                    "classification": "Positive"
+                },
+                "free_cash_flow": {
+                    "values": [
+                        {
+                            "period": "2019",
+                            "value": 58896000000
+                        },
+                        {
+                            "period": "2020",
+                            "value": 73365000000
+                        },
+                        {
+                            "period": "2021",
+                            "value": 92953000000
+                        },
+                        {
+                            "period": "2022",
+                            "value": 111443000000
+                        },
+                        {
+                            "period": "2023",
+                            "value": 99584000000
+                        }
+                    ],
+                    "explanation": "Free cash flow trends confirm substantial cash generating ability for reinvestment and shareholder benefits.",
+                    "classification": "Positive"
+                },
+                "fcf_cagr_calculated": {
+                    "rate_percent": 13.6,
+                    "period_years": 5,
+                    "start_year": "2019",
+                    "start_value": 58896000000,
+                    "end_year": "2023",
+                    "end_value": 99584000000,
+                    "calculation_note": "FCF CAGR based on five-year annual trend.",
+                    "classification": "Positive"
+                },
+                "fcf_margin": {
+                    "values": [
+                        {
+                            "period": "2019",
+                            "value_percent": 22.64
+                        },
+                        {
+                            "period": "2020",
+                            "value_percent": 26.73
+                        },
+                        {
+                            "period": "2021",
+                            "value_percent": 25.41
+                        },
+                        {
+                            "period": "2022",
+                            "value_percent": 29.2
+                        },
+                        {
+                            "period": "2023",
+                            "value_percent": 27.0
+                        }
+                    ],
+                    "explanation": "FCF margins consistently reflect Apple's strong cash flows relative to revenue despite fluctuations.",
+                    "classification": "Positive"
+                },
+                "capex_as_percent_of_revenue": {
+                    "values": [
+                        {
+                            "period": "2019",
+                            "value_percent": 4.03
+                        },
+                        {
+                            "period": "2020",
+                            "value_percent": 2.66
+                        },
+                        {
+                            "period": "2021",
+                            "value_percent": 2.53
+                        },
+                        {
+                            "period": "2022",
+                            "value_percent": 2.72
+                        },
+                        {
+                            "period": "2023",
+                            "value_percent": 2.86
+                        }
+                    ],
+                    "explanation": "CapEx as a percentage of revenue has declined due to revenue growth outpacing capital spending.",
+                    "classification": "Positive"
+                }
+            }
+        },
+        "fundamental_analysis": {
+            "market_capitalization": 2781991956500,
+            "enterprise_value_ttm": 3146031956500,
+            "beta": 1.275,
+            "shares_outstanding": 15744231000,
+            "valuation_ratios": {
+                "pe_ratio_ttm": 28.81,
+                "price_to_sales_ratio_ttm": 7.29,
+                "price_to_book_ratio_ttm": 44.78,
+                "ev_to_sales_ttm": 8.21,
+                "ev_to_ebitda_ttm": 25.0,
+                "earnings_yield_ttm": 3.47,
+                "free_cash_flow_yield_ttm": 3.58,
+                "peg_ratio_ttm": 1.46
+            },
+            "profitability_ratios": {
+                "roe_ttm": 39.11,
+                "roa_ttm": 27.07,
+                "roic_ttm": 29.71,
+                "gross_margin_ttm": 43.31,
+                "ebitda_margin_ttm": 33.1,
+                "net_margin_ttm": 23.66
+            },
+            "liquidity_and_solvency_ratios": {
+                "debt_to_equity_ttm": 1.36,
+                "debt_to_assets_ttm": 0.57,
+                "net_debt_to_ebitda_ttm": 0.65,
+                "current_ratio_ttm": 1.29,
+                "interest_coverage_ttm": 8.79
+            },
+            "efficiency_ratios": {
+                "days_sales_outstanding_ttm": 34.76,
+                "days_inventory_on_hand_ttm": 9.44,
+                "days_payables_outstanding_ttm": 96.57,
+                "cash_conversion_cycle_ttm": -52.37,
+                "asset_turnover_ttm": 1.13
+            },
+            "growth_metrics_ttm": {
+                "revenue_growth_yoy_ttm": -2.8,
+                "ebitda_growth_yoy_ttm": -3.61,
+                "eps_diluted_growth_yoy_ttm": 0.33
+            },
+            "industry_sector_comparison": {
+                "sector_pe_average": 39.01,
+                "industry_pe_average": 28.85,
+                "commentary": "Apple's P/E ratio remains below the industry average, indicating potential undervaluation against peers.",
+                "commentary_classification": "Positive"
+            }
+        },
+        "growth_prospects": {
+            "historical_growth_summary": {
+                "revenue_cagr": {
+                    "rate_percent": 10.13,
+                    "period_years": 5,
+                    "start_year": "2019",
+                    "start_value": 260174000000,
+                    "end_year": "2023",
+                    "end_value": 383285000000,
+                    "calculation_note": "Historical revenue CAGR from 2019 to 2023.",
+                    "classification": "Positive"
+                },
+                "net_income_cagr": {
+                    "rate_percent": 14.44,
+                    "period_years": 5,
+                    "start_year": "2019",
+                    "start_value": 55256000000,
+                    "end_year": "2023",
+                    "end_value": 96995000000,
+                    "calculation_note": "Historical net income CAGR from 2019 to 2023.",
+                    "classification": "Positive"
+                },
+                "eps_diluted_cagr": {
+                    "rate_percent": 19.73,
+                    "period_years": 5,
+                    "start_year": "2019",
+                    "start_value": 2.97,
+                    "end_year": "2023",
+                    "end_value": 6.13,
+                    "calculation_note": "Historical EPS diluted CAGR from 2019 to 2023.",
+                    "classification": "Positive"
+                },
+                "fcf_cagr": {
+                    "rate_percent": 13.6,
+                    "period_years": 5,
+                    "start_year": "2019",
+                    "start_value": 58896000000,
+                    "end_year": "2023",
+                    "end_value": 99584000000,
+                    "calculation_note": "Historical FCF CAGR from 2019 to 2023.",
+                    "classification": "Positive"
+                }
+            },
+            "future_drivers_commentary": "Continued innovation and strategic product launches are anticipated to drive future growth, along with expansion in service offerings.",
+            "future_drivers_commentary_classification": "Positive",
+            "analyst_growth_expectations": {
+                "source": "Financial analysts consensus",
+                "eps_growth_next_year_percent": 10.2,
+                "eps_growth_5yr_annualized_percent": 12.5,
+                "revenue_growth_next_year_percent": 5.5
+            }
+        },
+        "competitive_position": {
+            "market_share_overview": "Apple continues to maintain strong market positioning within the consumer electronics sector, showing consistent growth in service segments.",
+            "market_share_overview_classification": "Positive",
+            "competitive_advantages": "Apple benefits from brand loyalty, diversified product portfolio, and strong ecosystem integration, which enhance its competitive edge.",
+            "competitive_advantages_classification": "Positive",
+            "key_competitors": [
+                {
+                    "name": "Microsoft Corporation",
+                    "ticker": "MSFT"
+                },
+                {
+                    "name": "Google LLC",
+                    "ticker": "GOOGL"
+                },
+                {
+                    "name": "Amazon.com, Inc.",
+                    "ticker": "AMZN"
+                },
+                {
+                    "name": "Meta Platforms, Inc.",
+                    "ticker": "FB"
+                },
+                {
+                    "name": "Tesla, Inc.",
+                    "ticker": "TSLA"
+                }
+            ]
+        },
+        "peers_comparison": {
+            "peer_group_used": [
+                "MSFT",
+                "GOOGL",
+                "AMZN",
+                "FB",
+                "TSLA"
+            ],
+            "comparison_table": [
+                {
+                    "metric_name": "Market Cap",
+                    "company_value": "2.78 Trillion",
+                    "unit": "USD"
+                },
+                {
+                    "metric_name": "PE Ratio",
+                    "company_value": "28.81",
+                    "unit": "Times"
+                },
+                {
+                    "metric_name": "EPS Growth YoY",
+                    "company_value": "0.33%",
+                    "unit": "%"
+                }
+            ],
+            "relative_positioning_summary": "Apple's valuation multiples and growth metrics suggest strong competitive positioning relative to peers.",
+            "relative_positioning_summary_classification": "Positive"
+        },
+        "revenue_segmentation": {
+            "latest_fiscal_year": "2023",
+            "geographic_breakdown": [
+                {
+                    "region": "Americas",
+                    "revenue_amount": 162560000000,
+                    "revenue_percentage": 42.42
+                },
+                {
+                    "region": "Europe",
+                    "revenue_amount": 94294000000,
+                    "revenue_percentage": 24.6
+                },
+                {
+                    "region": "Greater China",
+                    "revenue_amount": 72559000000,
+                    "revenue_percentage": 18.93
+                },
+                {
+                    "region": "Japan",
+                    "revenue_amount": 24257000000,
+                    "revenue_percentage": 6.33
+                },
+                {
+                    "region": "Rest of Asia Pacific",
+                    "revenue_amount": 29615000000,
+                    "revenue_percentage": 7.72
+                }
+            ],
+            "product_breakdown": [
+                {
+                    "segment_name": "iPhone",
+                    "revenue_amount": 200583000000,
+                    "revenue_percentage": 52.34
+                },
+                {
+                    "segment_name": "Mac",
+                    "revenue_amount": 29357000000,
+                    "revenue_percentage": 7.66
+                },
+                {
+                    "segment_name": "iPad",
+                    "revenue_amount": 28300000000,
+                    "revenue_percentage": 7.38
+                },
+                {
+                    "segment_name": "Wearables, Home and Accessories",
+                    "revenue_amount": 39845000000,
+                    "revenue_percentage": 10.39
+                },
+                {
+                    "segment_name": "Service",
+                    "revenue_amount": 85200000000,
+                    "revenue_percentage": 22.23
+                }
+            ],
+            "segmentation_trends_commentary": "Revenue segmentation shows a balance with dominance in iPhone sales and strong growth in services, supporting diversified income streams.",
+            "segmentation_trends_commentary_classification": "Positive"
+        },
+        "risk_factors": {
+            "macroeconomic_risks": [
+                {
+                    "item_text": "Exposure to global economic cycles may impact consumer demand and revenue.",
+                    "classification": "Negative"
+                }
+            ],
+            "industry_competitive_risks": [
+                {
+                    "item_text": "Intensifying competition in technology and consumer electronics sector.",
+                    "classification": "Negative"
+                }
+            ],
+            "operational_execution_risks": [
+                {
+                    "item_text": "Supply chain disruptions could affect production and delivery timelines.",
+                    "classification": "Negative"
+                }
+            ],
+            "financial_risks": [
+                {
+                    "item_text": "Currency fluctuations might adversely impact financial results.",
+                    "classification": "Neutral"
+                }
+            ],
+            "regulatory_legal_risks": [
+                {
+                    "item_text": "Potential regulatory challenges related to data privacy and antitrust laws.",
+                    "classification": "Negative"
+                }
+            ],
+            "esg_related_risks": [
+                {
+                    "item_text": "Increasing pressure for ESG compliance could add operational costs.",
+                    "classification": "Negative"
+                }
+            ]
+        },
+        "valuation_analysis": {
+            "dcf_valuation": {
+                "key_assumptions": {
+                    "forecast_period_years": 10,
+                    "risk_free_rate_percent": 4.57,
+                    "beta_used": 1.275,
+                    "equity_risk_premium_percent": 5.5,
+                    "wacc_percent": 7.8,
+                    "terminal_growth_rate_percent": 2.5,
+                    "revenue_growth_assumptions": "Revenue growth expected to be moderate, aligning with past performance and market conditions.",
+                    "margin_assumptions": "Margins to remain stable driven by operational efficiencies and cost control."
+                },
+                "intrinsic_value_per_share": 185.5
+            },
+            "comparable_analysis_valuation": {
+                "peer_group_used": [
+                    "MSFT",
+                    "GOOGL",
+                    "AMZN",
+                    "FB",
+                    "TSLA"
+                ],
+                "key_multiple_used": "PE Ratio",
+                "multiple_value": 28.81,
+                "implied_metric_value": 29.0,
+                "intrinsic_value_per_share": 180.0
+            },
+            "valuation_summary": {
+                "fair_value_estimate_low": 170.0,
+                "fair_value_estimate_base": 185.0,
+                "fair_value_estimate_high": 200.0,
+                "current_price_vs_fair_value": "Moderately Undervalued",
+                "summary_commentary": "Apple's current market price remains below intrinsic estimates, suggesting a moderate undervaluation despite high market cap.",
+                "summary_commentary_classification": "Positive"
+            }
+        },
+        "scenario_analysis": {
+            "base_case_value_per_share": 185.0,
+            "bull_case": {
+                "key_driver_changes": "Significant product diversification and market penetration advances.",
+                "value_per_share": 210.0
+            },
+            "bear_case": {
+                "key_driver_changes": "Major economic downturn affecting consumer spending broadly.",
+                "value_per_share": 150.0
+            }
+        },
+        "shareholder_returns_analysis": {
+            "dividend_yield_annualized_percent": 0.57,
+            "dividend_payout_ratio_ttm_percent": 14.8,
+            "share_repurchase_yield_ttm_percent": 7.15,
+            "total_shareholder_yield_ttm_percent": 7.72,
+            "capital_allocation_commentary": "Apple's capital strategy remains focused on shareholder returns through a combination of share repurchases and dividends.",
+            "capital_allocation_commentary_classification": "Positive"
+        },
+        "investment_thesis_summary": {
+            "overall_recommendation": "Buy",
+            "price_target": 185.0,
+            "time_horizon": "12 months",
+            "key_investment_positives": [
+                {
+                    "item_text": "Strong brand appeal and ecosystem drive consistent revenue and profit growth.",
+                    "classification": "Positive"
+                }
+            ],
+            "key_investment_risks": [
+                {
+                    "item_text": "Exposure to economic cycles and regulatory environments pose material risks.",
+                    "classification": "Negative"
+                }
+            ],
+            "final_justification": "Given stable growth prospects and current undervaluation, Apple provides an attractive long-term investment opportunity.",
+            "final_justification_classification": "Positive"
+        }
+    },
+    "prompt_tokens": 32322,
+    "completion_tokens": 4138,
+    "total_tokens": 36460,
+    "analysis_generated_at": "2025-05-13T09:05:00.605257",
+    "model_used": "gpt-4o-2024-08-06",
+    "total_duration": 89.98900651931763,
+    "calendarYear": "2023"
+}
