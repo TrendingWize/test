@@ -1,6 +1,5 @@
-
-streamlit==1.45.1
-pandas==2.2.3
-numpy==2.2.6
-plotly==5.19.0  # Or whatever version you developed with
-neo4j==5.15.0   # Or whatever version you developed with
+streamlit
+pandas
+numpy
+plotly
+neo4j
