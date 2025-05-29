@@ -84,7 +84,7 @@ def load_ai_analysis_data_report(symbol_for_file="AAPL"):
     #script_dir = os.path.dirname(__file__)
     #project_root = os.path.abspath(os.path.join(script_dir, os.pardir))
     #file_name = r"C:\app\streamlit_financial_dashboard\AAPL_1.json"
-    file_path = r"C:\app\streamlit_financial_dashboard\AAPL_1.json"
+    file_path = r"AAPL_1.json"
     
     # st.write(f"Attempting to load AI analysis from: {file_path}") # Debug if needed
     try:
