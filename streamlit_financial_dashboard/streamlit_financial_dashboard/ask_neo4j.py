@@ -60,7 +60,7 @@ def initialize_llm_and_embeddings_askai(provider: str):
             raise ValueError("OPENAI_API_KEY missing or looks invalid.")
         embeddings_internal = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=OPENAI_API_KEY)
         # embeddings_internal.embed_query("ping") # Smoke test
-        llm_internal = ChatOpenAI(model="gpt-4", temperature=0, openai_api_key=OPENAI_API_KEY) # Using a common model
+        llm_internal = ChatOpenAI(model="gpt-4o", temperature=0, openai_api_key=OPENAI_API_KEY) # Using a common model
         # llm_internal.invoke("ping")
     elif llm_provider_internal == "gemini":
         if not GOOGLE_API_KEY:
@@ -86,7 +86,8 @@ def get_neo4j_graph_for_askai():
         graph = Neo4jGraph(
             url=NEO4J_URI_ASKAI, 
             username=NEO4J_USERNAME_ASKAI,
-            password=NEO4J_PASSWORD_ASKAI,
+            NEO4J_PASSWORD_ASKAI = st.secrets.get("NEO4J_PASSWORD"),
+
 
             database="neo4j",
             refresh_schema=True # Important for the LLM to get current schema
