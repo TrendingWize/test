@@ -7,6 +7,8 @@ from pathlib import Path
 from functools import lru_cache # Not used in provided snippet, can remove if not needed elsewhere
 import numpy as np
 import pandas as pd
+from typing import Tuple, List, Dict
+
 # from tqdm import tqdm # Not typically used in Streamlit apps
 from tenacity import retry, wait_exponential, stop_after_attempt # Keep if LLM calls use it
 from dotenv import load_dotenv # Keep for local .env, Streamlit secrets for deployment
@@ -21,14 +23,14 @@ import streamlit as st # ADDED for Streamlit caching and session state
 # --- ENV + GLOBALS ---
 
 # Use Streamlit secrets for deployed apps, fall back to .env for local
-OPENAI_API_KEY  = st.secrets.get("OPENAI_API_KEY") or os.getenv("OPENAI_API_KEY", "")
+OPENAI_API_KEY = st.secrets["openai"]["OPENAI_API_KEY"]
 LLM_PROVIDER='openai'
 #GOOGLE_API_KEY  = st.secrets.get("GOOGLE_API_KEY") or os.getenv("GOOGLE_API_KEY", "")
 # NEO4J creds will be passed from utils.py's get_neo4j_driver or initialized here if standalone
 
 NEO4J_URI_ASKAI      = st.secrets.get("NEO4J_URI") 
 NEO4J_USERNAME_ASKAI = st.secrets.get("NEO4J_USERNAME") 
-NEO4J_PASSWORD_ASKAI = st.secrets.get("NEO4J_PASSWORD") 
+NEO4J__ASKAI = st.secrets.get("NEO4J_PASSWORD") 
 
 
 VECTOR_INDEX_NAME   = "company_embedding_ix" # Or make configurable
@@ -83,8 +85,9 @@ def get_neo4j_graph_for_askai():
     try:
         graph = Neo4jGraph(
             url=NEO4J_URI_ASKAI, 
-            username="neo4j+s://f9f444b7.databases.neo4j.io",
-            password="BhpVJhR0i8NxbDPU29OtvveNE8Wx3X2axPI7mS7zXW0",
+            username=NEO4J_USERNAME_ASKAI,
+            password=NEO4J_PASSWORD_ASKAI,
+
             database="neo4j",
             refresh_schema=True # Important for the LLM to get current schema
         )
