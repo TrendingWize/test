@@ -11,11 +11,10 @@ from dataclasses import dataclass, field
 from datetime import datetime as dt_class, timedelta
 from functools import lru_cache, wraps
 from typing import Any, Dict, List, Optional
-from openai import OpenAI, APIError, APIConnectionError, RateLimitError, BadRequestError
+from openai import OpenAI, APIError, APIConnectionError, RateLimitError, BadRequestError, OpenAIError
 import requests
 import pandas as pd
 import streamlit as st
-from openai import OpenAI, OpenAIError
 try:
     from neo4j import GraphDatabase, Driver, unit_of_work
 except ImportError:
