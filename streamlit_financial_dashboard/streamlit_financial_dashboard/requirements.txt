@@ -9,3 +9,4 @@ ruff>=0.4
 pytest>=8.2
 langchain-community
 langchain-neo4j
+langchain-openai
