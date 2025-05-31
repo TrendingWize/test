@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import json
 from ask_neo4j import initialize_llm_and_embeddings_askai, ask_neo4j_logic
-from langchain_community.graphs import Neo4jGraph
+from langchain_neo4j import Neo4jGraph
 from utils import get_neo4j_driver # We will initialize Neo4jGraph directly here
 import traceback 
 import os
