@@ -15,6 +15,7 @@ from openai import OpenAI, APIError, APIConnectionError, RateLimitError, BadRequ
 import requests
 import pandas as pd
 import streamlit as st
+from openai import OpenAI, OpenAIError
 try:
     from neo4j import GraphDatabase, Driver, unit_of_work
 except ImportError:
