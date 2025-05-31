@@ -29,7 +29,7 @@ LLM_PROVIDER='openai'
 # NEO4J creds will be passed from utils.py's get_neo4j_driver or initialized here if standalone
 
 NEO4J_URI_ASKAI      = st.secrets.get("NEO4J_URI") 
-NEO4J_USERNAME_ASKAI = st.secrets.get("NEO4J_USERNAME") 
+NEO4J_USERNAME  = st.secrets.get("NEO4J_USERNAME") 
 NEO4J__ASKAI = st.secrets.get("NEO4J_PASSWORD") 
 
 
@@ -85,7 +85,7 @@ def get_neo4j_graph_for_askai():
     try:
         graph = Neo4jGraph(
             url=NEO4J_URI_ASKAI, 
-            username=NEO4J_USERNAME_ASKAI,
+            username=NEO4J_USERNAME ,
             NEO4J_PASSWORD_ASKAI = st.secrets.get("NEO4J_PASSWORD"),
 
 
