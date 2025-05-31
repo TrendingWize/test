@@ -27,6 +27,7 @@ OPENAI_API_KEY = st.secrets["openai"]["OPENAI_API_KEY"]
 LLM_PROVIDER='openai'
 #GOOGLE_API_KEY  = st.secrets.get("GOOGLE_API_KEY") or os.getenv("GOOGLE_API_KEY", "")
 # NEO4J creds will be passed from utils.py's get_neo4j_driver or initialized here if standalone
+st.write("Key starts with:", st.secrets["openai"]["OPENAI_API_KEY"][:12])
 
 NEO4J_URI_ASKAI      = st.secrets.get("NEO4J_URI") 
 NEO4J_USERNAME  = st.secrets.get("NEO4J_USERNAME") 
