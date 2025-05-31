@@ -85,14 +85,13 @@ def initialize_llm_and_embeddings_askai(provider: str):
 def get_neo4j_graph_for_askai():
     try:
         graph = Neo4jGraph(
-            url=NEO4J_URI_ASKAI, 
-            username=NEO4J_USERNAME ,
-            NEO4J_PASSWORD_ASKAI = st.secrets.get("NEO4J_PASSWORD"),
+    url=NEO4J_URI_ASKAI, 
+    username=NEO4J_USERNAME,
+    password=st.secrets.get("NEO4J_PASSWORD"),
+    database="neo4j",
+    refresh_schema=True
+)
 
-
-            database="neo4j",
-            refresh_schema=True # Important for the LLM to get current schema
-        )
         # graph.query("RETURN 1") # Simple connectivity test
         return graph
     except Exception as e:
